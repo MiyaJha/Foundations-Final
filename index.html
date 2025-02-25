@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhamiya's Profile</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="styles.css">
+  
 <header>
     <div class="container container-nav">
     <div class="titles">
@@ -19,21 +22,26 @@
         <li><a href="#">Contact Me</a></li>
        </ul>
       </nav>
+   
     </div>
   </header>
 </head>
 <body>
-    <section>
+    <section class="homebody">
   <img src="https://media.licdn.com/dms/image/v2/C4D03AQHk4aXTAmNLSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634150785364?e=1746057600&v=beta&t=PBDErViyBo6VB4AWHS7TqDvRUmA98lhG_iceAJL8LcI" alt="Beautiful Professional Headshot">
-  <h1>Hey there! I'm Jhamiya Jones</h1>
-  <h3>A Visionaire, Creative, & aspiring Software Engineer</h3>
-
- <ul>
+  <div>
+      <h1>Hey there! I'm Jhamiya Jones</h1>
+      <h3>A Visionaire, Creative, & aspiring Software Engineer</h3>
+ </div>
+ <div class="social">
+      <ul>
     <li><a href="https://www.youtube.com/@MiyaJha">Youtube</a></li>
     <li><a href="https://www.instagram.com/vitaminjha/">Instagram</a></li>
     <li><a href="https://www.linkedin.com/in/footprintofjhamiyaj/ ">linkedIn</a></li>
   </ul>
+</div>
 </section>
+
 <section>
    
     <img src="Photos/family.jpg" alt="Photo of Jhamiya and daughter">
@@ -56,7 +64,7 @@
     I have beginner experience in HTML, CSS, Flexbox, and wireframing, and I am eager to continue developing my skills in web development and programming. 
     My ability to organize, analyze, and create user-friendly experiences makes me a strong candidate for the tech industry.</p>
     
-   <H3> Skills Relevant to Software Engineering:</H3>
+   <h2> Skills Relevant to Software Engineering:</h2>
    <ul>
             <li>Problem-solving & critical thinking</li>
             <li>Attention to detail & organization</li>
@@ -72,16 +80,30 @@
 
 <Section>
     <H1>Projects</H1>
-<ul>
-    <li><img src="Photos/cake.jpg" alt="pink and red heart cake">Gals & Pals</li>
-    <li><img src="Photos/cup.jpg" alt="handpainted cup that looks like beautiful black girl ">The Golden Girl </li>
-    <li><img src="Photos/body.jpg" alt="body and self-care products">Get Me Bodied</li>
+<h2>
+    <ul>
+    <li><img src="Photos/cake.jpg" alt="pink and red heart cake"> <figcaption>Gals & Pals</figcaption>A beautiful cake baked and designed by me.</li>
+    <li><img src="Photos/cup.jpg" alt="handpainted cup that looks like beautiful black girl "><figcaption>The Golden Girl</figcaption> A custom, handpainted teatime set. </li>
+    <li><img src="Photos/body.jpg" alt="body and self-care products"><figcaption>Get Me Bodied</figcaption> A variety of handmade products, created to indulge yourself in self-care</li>
 </ul>
+</h2>
 </Section>
 
 <section>
-    <h1>Contact Me</h1>
+      <div class="contact">
+        <h1>I'd Love To Hear From You!</h1>
+        <img src="Photos/dream.jpeg" alt="whimsical dream clouds with enveloped messages">
+        <form action="#">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name">
+              <label for="email">Your Email</label>
+              <input type="text" id="email" name="email">
+              <label for="message">Your Message</label>
+              <textarea name="message" id="message" rows="5"></textarea>
+              <button>Send</button>
+        </form>
+      </div>
 </section>
-
+</div>
 </body>
 </html>

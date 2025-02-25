@@ -32,11 +32,28 @@ nav ul{
     body{
         background-image: url(https://img.freepik.com/free-vector/abstract-sky-background-with-sugar-cotton-pink-clouds-design_1048-15328.jpg?t=st=1740362172~exp=1740365772~hmac=d2362c366f908f51508190ad7069e8ee00b120006e5b7b191e49a8b1a5baa6b9&w=2000);
         color: rgb(200, 110, 200);
+        font-family: 'romanesco';
+        font-size: 32px;
     }
     img{
-        width: 500px;
+       width: 500px;
     }
    body ul{
 list-style: none;
+
     }
-  
+    .homebody{
+        display: flex;
+        justify-content: space-between;
+        }
+    .social{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-flow: wrap row;
+    }    
+
+    
+    
+   
+      
