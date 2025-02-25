@@ -72,22 +72,36 @@ body{
         margin: 25px;
         height: min-content; 
               }
+    div .body{
+        order: -1;
+    }
 
    div .social{
-   order: -1;
+   order: ;
      
         } 
      .img2{
         flex: 1 1 auto;
-        padding: 100px;
-        margin: 50px;
-        width: 50%;
+        padding: 50px;
+        margin: 30px;
+        width: 60%;
+        order: 1;
+    
         }
           
-    .about{
+    div.about{
         display: flex;
+        flex-flow: wrap column-reverse;
+        align-items: center;
        
-    }  
+       } 
+       
+    
+       .me{
+       align-self:center;
+       order: 2;
+       
+    } 
 
     button{
         background-color: lightpink;
