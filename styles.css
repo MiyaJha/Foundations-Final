@@ -75,25 +75,19 @@ body{
     div .body{
         order: -1;
     }
-
-   div .social{
-   order: ;
      
-        } 
-     .img2{
+        .img2{
         flex: 1 1 auto;
         padding: 50px;
         margin: 30px;
         width: 60%;
         order: 1;
-    
-        }
+    }
           
     div.about{
         display: flex;
         flex-flow: wrap column-reverse;
         align-items: center;
-       
        } 
        
     
@@ -114,15 +108,16 @@ body{
        button :hover,
        button :focus{
         color: floralwhite;
+        }
 
-       }
 
-    .projects{display: flex;
+    .projects{
+        display: flex;
         justify-content: space-evenly;
-      
         flex-flow: row wrap;
-
-    }
+              }
+           
+    
     
    
       
