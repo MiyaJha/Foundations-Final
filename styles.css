@@ -25,10 +25,9 @@ nav ul{
     }
     
     header{
-        background-color: pink;
+        background-color: #ffc0cb;
         padding: 0.8em 0;
         box-shadow: 2px 2px 10px black;
-       
     }
     
     .fa{
@@ -40,23 +39,24 @@ nav ul{
     }
     .fa-youtube{
         background: palevioletred;
-        color: floralwhite;}
+        color: floralwhite;
+    }
      .fa-instagram{
         background: purple;
-        color: floralwhite;
+        color: #fffaf0;
                  }  
     .fa-linkedin{
-    background: rgb(180, 97, 192);
-    color: floralwhite;
+        background: rgb(180, 97, 192);
+        color: floralwhite;
            }
-body{
-    background-image: url(https://img.freepik.com/free-vector/abstract-sky-background-with-sugar-cotton-pink-clouds-design_1048-15328.jpg?t=st=1740362172~exp=1740365772~hmac=d2362c366f908f51508190ad7069e8ee00b120006e5b7b191e49a8b1a5baa6b9&w=2000);
-    color: rgb(200, 110, 200);
-    font-family: 'romanesco';
-    font-size: 32px;
+    body{
+        background-image: url(https://img.freepik.com/free-vector/abstract-sky-background-with-sugar-cotton-pink-clouds-design_1048-15328.jpg?t=st=1740362172~exp=1740365772~hmac=d2362c366f908f51508190ad7069e8ee00b120006e5b7b191e49a8b1a5baa6b9&w=2000);
+        color: #c86ec8;
+        font-family: 'romanesco';
+        font-size: 32px;
     }
-   body ul{
-          list-style: none;
+    body ul{
+          list-style:none;
 
           }
     .homebody{
@@ -66,9 +66,11 @@ body{
         text-align: center;
        
               }
-        .img1{
+     .img1{
         flex: 1 1 auto;
         padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
         margin: 25px;
         height: min-content; 
               }
@@ -76,9 +78,11 @@ body{
         order: -1;
     }
      
-        .img2{
+     .img2{
         flex: 1 1 auto;
         padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
         margin: 30px;
         width: 60%;
         order: 1;
@@ -91,9 +95,11 @@ body{
        } 
        
     
-       .me{
+    .me{
        align-self:center;
        order: 2;
+       text-decoration: underline;
+       text-decoration-color: #dfb4f7;
        
     } 
 
@@ -105,18 +111,46 @@ body{
         font-size: 40px;
         font-weight: bold;
        }
-       button :hover,
-       button :focus{
+     button :hover,
+     button :focus{
         color: floralwhite;
         }
 
 
     .projects{
         display: flex;
-        justify-content: space-evenly;
-        flex-flow: row wrap;
-              }
-           
+        
+     }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 7%;
+              } 
+
+     #list{
+        list-style: disc;
+        padding-left: 20%;
+      
+     }     
+
+    .para{
+       flex-direction: column-reverse;
+       padding-top: 0;
+       padding-bottom: 0;
+       padding-left: 15%;
+       padding-right: 15%;
+          }
+    .protitle{
+       padding-left: 45%;
+             }  
+    
+    .titles{
+        text-decoration: underline;
+        text-decoration-color: #dfb4f7;
+    }
     
     
    

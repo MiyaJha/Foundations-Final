@@ -11,9 +11,9 @@
   
 <header>
     <div class="container container-nav">
-    <div class="titles">
+    <div>
         <h1>Jhamiya J's Creative Portfolio</h1>
-        <p class="subtitle">Where Dreams Come True</p>
+        <p class="subtitle">Where Dreams Come To Life</p>
     </div>
      <nav>
        <ul>
@@ -33,7 +33,7 @@
       <img src="https://media.licdn.com/dms/image/v2/C4D03AQHk4aXTAmNLSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634150785364?e=1746057600&v=beta&t=PBDErViyBo6VB4AWHS7TqDvRUmA98lhG_iceAJL8LcI" alt="Beautiful Professional Headshot" class="img1">
       <div class="body">
           <h1>Hey there! I'm Jhamiya Jones</h1>
-          <h3>A Visionaire, Creative, & aspiring Software Engineer</h3>
+          <h3 class="titles">A Visionaire, Creative, & aspiring Software Engineer</h3>
     </div>
     <div class="social">
           <ul>
@@ -49,8 +49,9 @@
     <img src="Photos/family.jpg" alt="Photo of Jhamiya and daughter" class="img2">
 
     <h1 class="me">Who Am I?</h1> 
-  
-   <p> Hi, I’m Jhamiya Jones, a dedicated professional from Atlanta, Georgia,
+    <div class="para">
+   <p>
+     Hi, I’m Jhamiya Jones, a dedicated professional from Atlanta, Georgia,
      with a passion for growth, creativity, and problem-solving.
      Above all, I am a proud mother to a beautiful daughter, 
      who inspires me every day to strive for balance, excellence, and self-care in all aspects of life. 
@@ -65,39 +66,45 @@
     <p>Now, I am expanding my expertise into the world of technology, with a focus on software engineering. 
     I have beginner experience in HTML, CSS, Flexbox, and wireframing, and I am eager to continue developing my skills in web development and programming. 
     My ability to organize, analyze, and create user-friendly experiences makes me a strong candidate for the tech industry.</p>
-    <p> As I continue this journey, I look forward to growing, learning, and creating meaningful digital experiences. If you’d like to connect, collaborate, or follow my progress, feel free to contact me!
+    <p> As I continue this journey, I look forward to growing, learning, and creating meaningful digital experiences. If you’d like to connect, collaborate, or follow my progress, feel free to <a href="#">contact me</a>!
     </p>
+   </div>
   </div>
-    <div>
-   <h2> Skills Relevant to Software Engineering:</h2>
-   <ul>
-            <li>Problem-solving & critical thinking</li>
-            <li>Attention to detail & organization</li>
-            <li>Adaptability & quick learning</li>
-            <li>Wireframing & UI/UX awareness</li>
-            <li>HTML & CSS (including Flexbox)</li>
-            <li>Communication & collaboration</li>
-            <li>Project management & operational support</li>
-    </ul>
-  <Button><a href="https://www.linkedin.com/in/footprintofjhamiyaj/">Resume</a></Button>
+    <div class="skills">
+      <h2 class="titles"> Skills Relevant to Software Engineering:</h2>
+            <ul id="list">
+                    <li>Problem-solving & critical thinking</li>
+                    <li>Attention to detail & organization</li>
+                    <li>Adaptability & quick learning</li>
+                    <li>Wireframing & UI/UX awareness</li>
+                    <li>HTML & CSS (including Flexbox)</li>
+                    <li>Communication & collaboration</li>
+                    <li>Project management & operational support</li>
+            </ul>
+      
+      <Button><a href="https://www.linkedin.com/in/footprintofjhamiyaj/">Resume</a></Button>
   </div>
 </section>
 
-<Section class="projects">
-    <H1>Projects</H1>
-<h2>
-    <ul class="work">
-    <li><img src="Photos/cake.jpg" alt="pink and red heart cake"> <figcaption>Gals & Pals</figcaption>A beautiful cake baked and designed by me.</li>
-    <li><img src="Photos/cup.jpg" alt="handpainted cup that looks like beautiful black girl "><figcaption>The Golden Girl</figcaption> A custom, handpainted teatime set. </li>
-    <li><img src="Photos/body.jpg" alt="body and self-care products"><figcaption>Get Me Bodied</figcaption> A variety of handmade products, created to indulge yourself in self-care</li>
-</ul>
-</h2>
+<Section class="protitle">
+<H1 class="titles">Projects</H1>
+</Section>
+<Section>
+    <div class="img3">
+      <h2>Gals & Pals</h2>
+      <img src="Photos/cake.jpg" alt="pink and red heart cake"> <figcaption>A beautiful cake baked and designed by me.</figcaption>
+      <h2>The Golden Girl</h2>
+      <img src="Photos/cup.jpg" alt="handpainted cup that looks like beautiful black girl "><figcaption>A custom, handpainted teatime set.</figcaption>
+      <h2>Get Me Bodied</h2> 
+      <img src="Photos/body.jpg" alt="body and self-care products"><figcaption>A variety of handmade products, created to indulge yourself in self-care</figcaption>
+    </div>
 </Section>
 
 <section>
       <div class="contact">
         <h1>I'd Love To Hear From You!</h1>
         <img src="Photos/dream.jpeg" alt="whimsical dream clouds with enveloped messages">
+       <div>
         <form action="#">
               <label for="name">Your Name:</label>
               <input type="text" id="name" name="name">
@@ -108,7 +115,7 @@
               <button>Send</button>
         </form>
       </div>
+      </div>
 </section>
-</div>
 </body>
 </html>
